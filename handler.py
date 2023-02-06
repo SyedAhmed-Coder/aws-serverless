@@ -3,7 +3,7 @@ import json
 
 def hello(event, context):
     body = {
-        "message": "Go aws-Serverless v6.0! Your function executed successfully!.. This is my latest commit",
+        "message": "Go aws-Serverless v7.0! Your function executed successfully!",
         "input": event,
     }
 
