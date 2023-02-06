@@ -6,6 +6,16 @@ frameworkVersion: '3'
 provider:
   name: aws
   runtime: python3.9
+  stage: ${opt:stage, 'dev'}
+  environment:
+    VAR_NAME: ${self:custom.variables.${self:provider.stage}.VAR_NAME}
+
+custom:
+  variables:
+    dev:
+      VAR_NAME: devValue
+    prod:
+      VAR_NAME: prodValue
 
 functions:
   hello:
