@@ -3,7 +3,7 @@ import json
 
 def hello(event, context):
     body = {
-        "message": "Go aws-Serverless v7.0! Your function executed successfully!",
+        "message": "This the dev branch Version 1.0.",
         "input": event,
     }
 
