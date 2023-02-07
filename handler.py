@@ -3,7 +3,7 @@ import json
 
 def hello(event, context):
     body = {
-        "message": "This the devlopment branch pushing Version 1.0.",
+        "message": "This the devlopment branch pushing Version 2.0.",
         "input": event,
     }
 
