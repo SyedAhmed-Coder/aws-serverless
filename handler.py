@@ -3,7 +3,7 @@ import json
 
 def hello(event, context):
     body = {
-        "message": "This is the Production Branch Version 1.0",
+        "message": "This is the Production Branch Version 2.0",
         "input": event,
     }
 
